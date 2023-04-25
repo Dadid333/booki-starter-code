@@ -27,9 +27,11 @@
             </nav>
         </header>
         <main>
-            <div class="headline">
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>  <!--ancre : on crée un id associé à un lien avec # -->  
-                <p>En plein centre-ville ou en pleine nature</p>
+            <div class="infogroup">
+                <div class="headline">
+                    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>  
+                    <p>En plein centre-ville ou en pleine nature</p>
+                </div>
                 <form class="searchbar" method="get" action="#">
                     <div class="location-dot"><i class="fa-solid fa-location-dot fa-lg"></i></div>
                     <label for="search"></label>
@@ -41,17 +43,17 @@
                 </form>
                 <div class="filterbar">
                     <h3>Filtres</h3>
-                    <div class="boutonfiltre"><i class="fa-solid fa-money-bill-wave fa-lg"></i><h3>&Eacute;conomique</h3></div>
-                    <div class="boutonfiltre"> <i class="fa-solid fa-person fa-lg"></i><h3>Familial</h3></div>
-                    <div class="boutonfiltre"><i class="fa-solid fa-heart fa-lg"></i><h3>Romantique</h3></div>
-                    <div class="boutonfiltre"><i class="fa-solid fa-fire fa-lg"></i><h3>Nos pépites</h3></div>                    
+                    <div class="boutonfiltre"><i class="fa-solid fa-money-bill-wave fa-lg"></i><a href="#"><h3>&Eacute;conomique</h3></a></div>
+                    <div class="boutonfiltre"><i class="fa-solid fa-person fa-lg"></i><a href="#"><h3>Familial</h3></a></div>
+                    <div class="boutonfiltre"><i class="fa-solid fa-heart fa-lg"></i><a href="#"><h3>Romantique</h3></a></div>
+                    <div class="boutonfiltre"><i class="fa-solid fa-fire fa-lg"></i><a href="#"><h3>Nos pépites</h3></a></div>                    
                 </div>
-                <div class="zoneinfo">
+                <div class="infobar">
                     <div class="info-icone"><i class="fa-solid fa-info fa-sm"></i></div>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </div>
-            <div id="hebergements" class="hebergements-and-populaires"> 
+            <div id="hebergements" class="hebergements-and-populaires"> <!--ancre : on crée un id associé à un lien avec # -->  
                 <section class="hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
@@ -173,9 +175,7 @@
                             </article>
                         </a>
                     </div>
-                    <div class="hebergements-h3">
-                        <a href="#"><h3 class="section-titleh3">Afficher plus</h3></a>
-                    </div>
+                    <a href="#"><p>Afficher plus</p></a>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
@@ -297,5 +297,4 @@
         </footer>
     </div>
 </body>
-
 </html>
