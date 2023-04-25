@@ -82,6 +82,7 @@ a {
     height: 45px;
     width: 195px;
     border: 2px solid #F2F2F2;
+    outline: none;
 }
 
 .searchbutton {
@@ -226,7 +227,8 @@ body {
 .hebergements-cards {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    justify-content: space-between;
+    row-gap: 30px;
     flex-wrap: wrap;
 }
 
@@ -234,7 +236,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 200px;
-    width: 236px;
+    width: 240px;
 }
 
 .hebergements-cards img {
