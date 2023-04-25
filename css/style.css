@@ -239,6 +239,7 @@ body {
 
 .hebergements-cards img {
     height: 115px;
+    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -282,6 +283,11 @@ body {
 .populaires-cards .card {
     display: flex;
     margin-top: 30px;
+}
+
+.populaires-cards .card a {
+    display: flex;
+    width: 100%;
 }
 
 .populaires-cards img {
@@ -343,6 +349,10 @@ body {
     height: 439px;
     padding: 0;
     flex-direction: column;
+}
+
+.activites-cards .card a {
+    height: 100%;
 }
 
 .activites-cards img {
